@@ -4,10 +4,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/example/starwars/generated"
-	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/HaswinVidanage/gqlgen/client"
+	"github.com/HaswinVidanage/gqlgen/example/starwars/generated"
+	"github.com/HaswinVidanage/gqlgen/graphql/introspection"
+	"github.com/HaswinVidanage/gqlgen/handler"
 	"github.com/stretchr/testify/require"
 )
 

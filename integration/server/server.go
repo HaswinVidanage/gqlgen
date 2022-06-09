@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/handler"
-	"github.com/99designs/gqlgen/integration"
+	"github.com/HaswinVidanage/gqlgen/graphql"
+	"github.com/HaswinVidanage/gqlgen/handler"
+	"github.com/HaswinVidanage/gqlgen/integration"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser/gqlerror"
 )

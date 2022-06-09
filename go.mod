@@ -1,4 +1,6 @@
-module github.com/99designs/gqlgen
+module github.com/HaswinVidanage/gqlgen
+
+go 1.17
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -26,4 +28,9 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 	sourcegraph.com/sourcegraph/appdash v0.0.0-20180110180208-2cc67fd64755
 	sourcegraph.com/sourcegraph/appdash-data v0.0.0-20151005221446-73f23eafcf67 // indirect
+)
+
+require (
+	github.com/agnivade/levenshtein v1.0.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 )

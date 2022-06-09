@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/handler"
+	"github.com/HaswinVidanage/gqlgen/client"
+	"github.com/HaswinVidanage/gqlgen/handler"
 	"github.com/stretchr/testify/require"
 )
 

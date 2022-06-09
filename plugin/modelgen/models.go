@@ -4,11 +4,11 @@ import (
 	"go/types"
 	"sort"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/HaswinVidanage/gqlgen/internal/code"
 
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/codegen/templates"
-	"github.com/99designs/gqlgen/plugin"
+	"github.com/HaswinVidanage/gqlgen/codegen/config"
+	"github.com/HaswinVidanage/gqlgen/codegen/templates"
+	"github.com/HaswinVidanage/gqlgen/plugin"
 	"github.com/vektah/gqlparser/ast"
 )
 

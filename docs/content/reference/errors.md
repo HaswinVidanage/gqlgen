@@ -19,9 +19,9 @@ package foo
 
 import (
 	"context"
-	
+
 	"github.com/vektah/gqlparser/gqlerror"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/HaswinVidanage/gqlgen/graphql"
 )
 
 func (r Query) DoThings(ctx context.Context) (bool, error) {

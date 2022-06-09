@@ -3,8 +3,8 @@
 package plugin
 
 import (
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
+	"github.com/HaswinVidanage/gqlgen/codegen"
+	"github.com/HaswinVidanage/gqlgen/codegen/config"
 )
 
 type Plugin interface {

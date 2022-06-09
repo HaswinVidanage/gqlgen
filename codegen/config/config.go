@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/HaswinVidanage/gqlgen/internal/code"
 	"github.com/pkg/errors"
 	"github.com/vektah/gqlparser"
 	"github.com/vektah/gqlparser/ast"
@@ -331,28 +331,28 @@ func (c *Config) normalize() error {
 
 func (c *Config) InjectBuiltins(s *ast.Schema) {
 	builtins := TypeMap{
-		"__Directive":         {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.Directive"}},
-		"__DirectiveLocation": {Model: StringList{"github.com/99designs/gqlgen/graphql.String"}},
-		"__Type":              {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.Type"}},
-		"__TypeKind":          {Model: StringList{"github.com/99designs/gqlgen/graphql.String"}},
-		"__Field":             {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.Field"}},
-		"__EnumValue":         {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.EnumValue"}},
-		"__InputValue":        {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.InputValue"}},
-		"__Schema":            {Model: StringList{"github.com/99designs/gqlgen/graphql/introspection.Schema"}},
-		"Float":               {Model: StringList{"github.com/99designs/gqlgen/graphql.Float"}},
-		"String":              {Model: StringList{"github.com/99designs/gqlgen/graphql.String"}},
-		"Boolean":             {Model: StringList{"github.com/99designs/gqlgen/graphql.Boolean"}},
-		"Time":                {Model: StringList{"github.com/99designs/gqlgen/graphql.Time"}},
-		"Map":                 {Model: StringList{"github.com/99designs/gqlgen/graphql.Map"}},
+		"__Directive":         {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.Directive"}},
+		"__DirectiveLocation": {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.String"}},
+		"__Type":              {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.Type"}},
+		"__TypeKind":          {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.String"}},
+		"__Field":             {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.Field"}},
+		"__EnumValue":         {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.EnumValue"}},
+		"__InputValue":        {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.InputValue"}},
+		"__Schema":            {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql/introspection.Schema"}},
+		"Float":               {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.Float"}},
+		"String":              {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.String"}},
+		"Boolean":             {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.Boolean"}},
+		"Time":                {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.Time"}},
+		"Map":                 {Model: StringList{"github.com/HaswinVidanage/gqlgen/graphql.Map"}},
 		"Int": {Model: StringList{
-			"github.com/99designs/gqlgen/graphql.Int",
-			"github.com/99designs/gqlgen/graphql.Int32",
-			"github.com/99designs/gqlgen/graphql.Int64",
+			"github.com/HaswinVidanage/gqlgen/graphql.Int",
+			"github.com/HaswinVidanage/gqlgen/graphql.Int32",
+			"github.com/HaswinVidanage/gqlgen/graphql.Int64",
 		}},
 		"ID": {
 			Model: StringList{
-				"github.com/99designs/gqlgen/graphql.ID",
-				"github.com/99designs/gqlgen/graphql.IntID",
+				"github.com/HaswinVidanage/gqlgen/graphql.ID",
+				"github.com/HaswinVidanage/gqlgen/graphql.IntID",
 			},
 		},
 	}

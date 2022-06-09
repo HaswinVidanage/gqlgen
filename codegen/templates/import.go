@@ -5,7 +5,7 @@ import (
 	"go/types"
 	"strconv"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/HaswinVidanage/gqlgen/internal/code"
 )
 
 type Import struct {

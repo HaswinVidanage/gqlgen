@@ -17,11 +17,11 @@ schema: schema.graphql
 schema:
  - schema.graphql
  - user.graphql
- 
+
 # Or you can use globs
-schema: 
+schema:
  - "*.graphql"
- 
+
 # Let gqlgen know where to put the generated server
 exec:
   filename: graph/generated/generated.go
@@ -56,8 +56,8 @@ models:
   # resolver args.
   ID:
     model:
-      - github.com/99designs/gqlgen/graphql.IntID
-      - github.com/99designs/gqlgen/graphql.ID
+      - github.com/HaswinVidanage/gqlgen/graphql.IntID
+      - github.com/HaswinVidanage/gqlgen/graphql.ID
 ```
 
 Everything has defaults, so add things as you need.

@@ -2,11 +2,11 @@
 
 ## What is gqlgen?
 
-[gqlgen](https://github.com/99designs/gqlgen) is a Go library for building GraphQL servers without any fuss. gqlgen is:
+[gqlgen](https://github.com/HaswinVidanage/gqlgen) is a Go library for building GraphQL servers without any fuss. gqlgen is:
 
  - **Schema first** — Define your API using the GraphQL [Schema Definition Language](http://graphql.org/learn/schema/).
  - **Type safe** — You should never see `map[string]interface{}` here.
- - **Codegen** — Let us generate the boring bits, so you can build your app quickly. 
+ - **Codegen** — Let us generate the boring bits, so you can build your app quickly.
 
 [Feature Comparison](https://gqlgen.com/feature-comparison/)
 
@@ -14,15 +14,15 @@
 
 First work your way through the [Getting Started](ttps://gqlgen.com/getting-started/) tutorial.
 
-If you can't find what your looking for, look at our [examples](https://github.com/99designs/gqlgen/tree/master/example) for example usage of gqlgen.
+If you can't find what your looking for, look at our [examples](https://github.com/HaswinVidanage/gqlgen/tree/master/example) for example usage of gqlgen.
 
 ## Reporting Issues
 
-If you think you've found a bug, or something isn't behaving the way you think it should, please raise an [issue](https://github.com/99designs/gqlgen/issues) on GitHub.
+If you think you've found a bug, or something isn't behaving the way you think it should, please raise an [issue](https://github.com/HaswinVidanage/gqlgen/issues) on GitHub.
 
 ## Contributing
 
-Read our [Contribution Guidelines](https://github.com/99designs/gqlgen/blob/master/CONTRIBUTING.md) for information on how you can help out gqlgen.
+Read our [Contribution Guidelines](https://github.com/HaswinVidanage/gqlgen/blob/master/CONTRIBUTING.md) for information on how you can help out gqlgen.
 
 ## Talks & Blog Posts
 

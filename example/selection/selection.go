@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/HaswinVidanage/gqlgen/graphql"
 	"github.com/vektah/gqlparser/ast"
 )
 
